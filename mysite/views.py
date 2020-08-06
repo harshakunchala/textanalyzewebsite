@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, 'index.html')
-
+#im startboy
 
 def analyze(request):
     djtext = request.GET.get('text', 'default')
